@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Create axios instance
-const api = axios.create({ baseURL: "https://personaltaskmanager-c3no.onrender.com/api",
+const api = axios.create({ baseURL: "http://localhost:5000/api",
 });
 
 // Automatically attach token to headers
