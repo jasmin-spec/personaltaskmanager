@@ -10,7 +10,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: "http://personaltaskmanager-kcbj.vercel.app",
+  origin: "https://personaltaskmanager-kcbj.vercel.app",
   credentials: true
 }));
 
